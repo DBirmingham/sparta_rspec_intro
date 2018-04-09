@@ -14,7 +14,9 @@ see [here](https://stackoverflow.com/questions/38194032/how-to-update-ruby-versi
 ## Running Tests
 
 Run the command
-> rspec file_name.rb
+```
+rspec file_name.rb
+```
 
 ## Built With
 
