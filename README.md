@@ -1,6 +1,7 @@
 # sparta_rspec_intro
 
 A look into the rspec testing tool. Getting used to its style, syntax and using matchers.
+Looking into the usage of spec folders and creating our first real tests of an external file.
 
 ## Getting started
 
@@ -13,11 +14,16 @@ see [here](https://stackoverflow.com/questions/38194032/how-to-update-ruby-versi
 
 ## Running Tests
 
-Run the command
+In general run the following command in your terminal to get the results of your rspec tests.
 ```
 rspec file_name.rb
 ```
+If, however, you first run
+```
+rspec --init
+```
+as we have in our rspec_calculator example, a spec folder will be created. The rspec command will look for this spec folder and run all ruby test spec files within this folder. Note, spec files must end with \_spec
 
 ## Built With
 
-rspec!
+Ruby and rspec!
