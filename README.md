@@ -13,7 +13,7 @@ see [here](https://stackoverflow.com/questions/38194032/how-to-update-ruby-versi
 
 ## Running Tests
 
-Run the command
+Run the following command in your terminal to get the results of your rspec tests.
 ```
 rspec file_name.rb
 ```
