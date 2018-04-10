@@ -22,7 +22,7 @@ If, however, you first run
 ```
 rspec --init
 ```
-as we have in our rspec_calculator example, a spec folder will be created. The rspec command will look for this spec folder and run all ruby test spec files within this folder. Note, spec files must end with \_spec
+as we have in all examples other than the rspec matchers folder, a spec folder will be created. The rspec command will look for this spec folder and run all ruby test spec files within this folder as well as use the spec_helper file, used to configure rspec layout and function. Note, spec files must end with \_spec
 
 ## Built With
 
