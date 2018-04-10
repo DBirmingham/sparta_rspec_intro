@@ -1,8 +1,9 @@
 require 'spec_helper'
 
 describe 'CalcEngine' do
-	before(:each) do
+	before(:all) do
 		@calc = CalcEngine.new
+		puts "hi"
 	end
 
 	it 'should correctly add two numbers' do
