@@ -25,11 +25,11 @@ describe 'Euler 1' do
 		expect(@eu.set).to be_a(Array)
 	end
 
-	it 'should return a number which is the sum of the array created with its array method' do
+	it 'should return an Integer when the total method is called' do
 		expect(@eu.total).to be_a(Integer)
 	end
 
-	it 'should return the number # when sum is called' do
+	it 'should return the number 233168 when the total method is called' do
 		expect(@eu.total).to eq 233168
 	end
 
