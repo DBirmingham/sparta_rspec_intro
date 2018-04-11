@@ -4,9 +4,9 @@ class Fib
 
 	def initialize
 		@array = [1, 2]
-		self.fibonacci
+		# self.fibonacci
 		@evens = []
-		self.list_evens
+		# self.list_evens
 		@total = 0
 	end
 
